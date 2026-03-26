@@ -1,0 +1,24 @@
+/* App.css - The Application Layout */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1; /* Pushes footer to bottom if page is short */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the content on big office monitors */
+  width: 100%;
+}
+
+/* Smooth transitions when switching pages */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
