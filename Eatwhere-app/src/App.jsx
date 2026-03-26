@@ -12,7 +12,6 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import TopPicks from './Pages/TopPicks';
-import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
             <Route path="/login" element={<Login />} />
             {/* Path updated to match Navbar link exactly */}
             <Route path="/toppicks" element={<TopPicks />} />
-            <Route path="/about" element={<AboutUs />} />
           </Routes>
         </main>
 
