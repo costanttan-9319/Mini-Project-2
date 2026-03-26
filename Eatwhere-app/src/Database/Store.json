@@ -1,0 +1,361 @@
+[
+  {
+    "id": 1,
+    "name": "JWS Grille Factory",
+    "country": "Singapore",
+    "location": "Woodlands",
+    "cuisine": "Western",
+    "rating": 4.6,
+    "imagePath": "/StoreImages/JWS.png",
+    "mapLink": "https://www.google.com/maps/place/JWS+Grille+Factory+(Woodlands)/@1.4385656,103.8048641,14z/data=!4m10!1m2!2m1!1sWoodlands+Western+Grill+Singapore!3m6!1s0x31da130007751e2d:0xe3193c5a7001a137!8m2!3d1.4399663!4d103.8093936!15sCiFXb29kbGFuZHMgV2VzdGVybiBHcmlsbCBTaW5nYXBvcmVaIyIhd29vZGxhbmRzIHdlc3Rlcm4gZ3JpbGwgc2luZ2Fwb3JlkgELY29mZmVlX3Nob3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnljbkZRUm5kQlJSQULgAQD6AQQIABAv!16s%2Fg%2F11y2w566nc?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "9:00 AM - 9:00 PM",
+      "Tuesday": "9:00 AM - 9:00 PM",
+      "Wednesday": "9:00 AM - 9:00 PM",
+      "Thursday": "9:00 AM - 9:00 PM",
+      "Friday": "9:00 AM - 9:00 PM",
+      "Saturday": "9:00 AM - 9:00 PM",
+      "Sunday": "9:00 AM - 9:00 PM"
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "AMK Hub Ichiban Boshi",
+    "country": "Singapore",
+    "location": "Ang Mo Kio",
+    "cuisine": "Japanese",
+    "rating": 4.2,
+    "imagePath": "/StoreImages/IchibanBoshiAMK.png",
+    "mapLink": "https://www.google.com/maps/place/Ichiban+Boshi+(AMK+Hub)/@1.3691415,103.8441232,17z/data=!4m10!1m2!2m1!1samk+hub+japanese+food!3m6!1s0x31da17fbbf1dd0ff:0xc0f6f1acc31d9ed4!8m2!3d1.3691415!4d103.8486293!15sChVhbWsgaHViIGphcGFuZXNlIGZvb2RaFyIVYW1rIGh1YiBqYXBhbmVzZSBmb29kkgETamFwYW5lc2VfcmVzdGF1cmFudJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQydGFjMk16Vm5oWk1qUXdZbFJvZFdWc2JFbFdNMDQyWkRCcmVWRldSUkFC4AEA-gEECAAQNA!16s%2Fg%2F11yn9y1p14?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:30 AM - 10:00 PM",
+      "Tuesday": "11:30 AM - 10:00 PM",
+      "Wednesday": "11:30 AM - 10:00 PM",
+      "Thursday": "11:30 AM - 10:00 PM",
+      "Friday": "11:30 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "Bedok 85 Xing Ji Rou Cuo Mian",
+    "country": "Singapore",
+    "location": "Bedok",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 4.2,
+    "imagePath": "/StoreImages/XingJiRouCuoMian.png",
+    "mapLink": "https://www.google.com/maps/place/Xing+Ji+Rou+Cuo+Mian+(Bak+Chor+Mee)/@1.3319532,103.935887,17z/data=!3m2!4b1!5s0x31da3d4a31661d35:0x23472547b12a77f!4m6!3m5!1s0x31da3d4cbf124ed3:0x7820eb89d05893c!8m2!3d1.3319478!4d103.9384566!16s%2Fg%2F1tksf9x8?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:30 AM - 11:00 PM",
+      "Tuesday": "11:30 AM - 11:00 PM",
+      "Wednesday": "11:30 AM - 11:00 PM",
+      "Thursday": "Closed",
+      "Friday": "11:30 AM - 10:00 PM",
+      "Saturday": "11:30 AM - 11:00 PM",
+      "Sunday": "11:30 AM - 11:00 PM"
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "Clementi 448 Fried Carrot Cake",
+    "country": "Singapore",
+    "location": "Clementi",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 4.6,
+    "imagePath": "https://danielfooddiary.com/wp-content/uploads/2022/03/friedcarrotcake9.jpg",
+    "mapLink": "https://www.google.com/maps/search/Clementi+448+Fried+Carrot+Cake",
+    "openingHours": {
+      "Monday": "Closed",
+      "Tuesday": "6:00 AM - 6:00 PM",
+      "Wednesday": "6:00 AM - 6:00 PM",
+      "Thursday": "6:00 AM - 6:00 PM",
+      "Friday": "6:00 AM - 6:00 PM",
+      "Saturday": "6:00 AM - 6:00 PM",
+      "Sunday": "6:00 AM - 6:00 PM"
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "N2 Nasi Lemak",
+    "country": "Singapore",
+    "location": "Woodlands",
+    "cuisine": ["Muslim", "Local"],
+    "rating": 4.1,
+    "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqQOfSHOGHzzVq0UFY4DaLKCpjR7WzGgoZQ&s",
+    "mapLink": "https://www.google.com/maps/place/N2+Nasi+Lemak/@1.4336005,103.777349,17z/data=!3m1!4b1!4m6!3m5!1s0x31da13b6c34c5607:0x23dd2f1c25421c3c!8m2!3d1.4335951!4d103.7799186!16s%2Fg%2F11yh4x84w4?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "Closed",
+      "Wednesday": "8:00 AM - 6:00 PM",
+      "Thursday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "8:00 AM - 6:00 PM",
+      "Sunday": "8:00 AM - 6:00 PM"
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "925 Yishun Hainanese Chicken Rice",
+    "country": "Singapore",
+    "location": "Ang Mo Kio",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 3.7,
+    "imagePath": "https://chiefeater.com/wp-content/uploads/2024/04/yishun_925_chicken_rice_631_amk_apr2024_eddielow_02.jpg",
+    "mapLink": "https://www.google.com/maps/place/925+Yishun+Hainanese+Chicken+Rice/@1.3721708,103.8385724,16z/data=!4m10!1m2!2m1!1s925+Yishun+Hainanese+Chicken+Rice+amk!3m6!1s0x31da16e7b56fb209:0xa3b6812028c123b2!8m2!3d1.3721708!4d103.8475846!15sCiU5MjUgWWlzaHVuIEhhaW5hbmVzZSBDaGlja2VuIFJpY2UgYW1rWiciJTkyNSB5aXNodW4gaGFpbmFuZXNlIGNoaWNrZW4gcmljZSBhbWuSAQxoYXdrZXJfc3RhbGzgAQA!16s%2Fg%2F11cn6ct4cr?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "9:30 AM - 8:30 PM",
+      "Tuesday": "9:30 AM - 8:30 PM",
+      "Wednesday": "9:30 AM - 8:30 PM",
+      "Thursday": "9:30 AM - 8:30 PM",
+      "Friday": "9:30 AM - 8:30 PM",
+      "Saturday": "9:30 AM - 8:30 PM",
+      "Sunday": "9:30 AM - 8:30 PM"
+    }
+  },
+
+  {
+    "id": 7,
+    "name": "Hot Tomato Bistro",
+    "country": "Singapore",
+    "location": "Bedok",
+    "cuisine": ["Western"],
+    "rating": 4.0,
+    "imagePath": "https://sethlui.com/wp-content/uploads/2023/02/hottomato-450x600.jpeg",
+    "mapLink": "https://www.google.com/maps/place/Hot+Tomato+Bistro/@1.324583,103.8936084,14z/data=!3m1!5s0x31da22b31eca3f8f:0x5c209a697afbd5c8!4m10!1m2!2m1!1sBedok+Mall+pasta!3m6!1s0x31da22b317df550f:0x7af9603b355486d4!8m2!3d1.324583!4d103.9296573!15sChBCZWRvayBNYWxsIHBhc3RhWhIiEGJlZG9rIG1hbGwgcGFzdGGSARJ3ZXN0ZXJuX3Jlc3RhdXJhbnSaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUlNjRFZxWjBaUkVBReABAPoBBAgYEC4!16s%2Fg%2F11clg91yxp?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
+  },
+
+  {
+    "id": 8,
+    "name": "Hui Jun La Mian Xiao Long Bao",
+    "country": "Singapore",
+    "location": "Clementi",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 4.8,
+    "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKmV7h-NJRlEVWszPgOg7lU_eYTJuUcy2U9g&s",
+    "mapLink": "https://www.google.com/maps/place/Hui+Jun+La+Mian+Xiao+Long+Bao/@1.3153263,103.7307382,14z/data=!3m1!5s0x31da1a8f3228f2cd:0x9e7bb1e5e60b2e35!4m10!1m2!2m1!1sclementi+ramen!3m6!1s0x31da11a6dfcb5871:0x120c318c2af0e449!8m2!3d1.3153263!4d103.7667871!15sCg5jbGVtZW50aSByYW1lbloQIg5jbGVtZW50aSByYW1lbpIBEmNoaW5lc2VfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRek5uRmxTbXAzUlJBQuABAPoBBAgAEC4!16s%2Fg%2F11sb86nprg?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "8:00 AM - 8:30 PM",
+      "Tuesday": "8:00 AM - 8:30 PM",
+      "Wednesday": "8:00 AM - 8:30 PM",
+      "Thursday": "8:00 AM - 8:30 PM",
+      "Friday": "8:00 AM - 8:30 PM",
+      "Saturday": "8:00 AM - 8:30 PM",
+      "Sunday": "8:00 AM - 8:30 PM"
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "Dim Sum Express",
+    "country": "Singapore",
+    "location": "Woodlands",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 4.0,
+    "imagePath": "https://sethlui.com/wp-content/uploads/2017/02/IMG_3234-800x533.jpg",
+    "mapLink": "https://www.google.com/maps/place/Dim+Sum+Express+(Kuai+Can+Dian+Xin)/@1.4357623,103.8028759,17z/data=!3m2!4b1!5s0x31da16e6b8e20cbd:0xf066cfb5fe5fbcac!4m6!3m5!1s0x31da13a5fd4ebbdd:0x806dd9d94bcc3d8!8m2!3d1.4357569!4d103.8054455!16s%2Fg%2F11h6qkfrhp?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    }
+  },
+
+  {
+    "id": 10,
+    "name": "Yunos N Family",
+    "country": "Singapore",
+    "location": "Ang Mo Kio",
+    "cuisine": ["Muslim", "Local"],
+    "rating": 4.4,
+    "imagePath": "https://sethlui.com/wp-content/uploads/2022/11/photo_2022-11-09_18-22-50.jpg",
+    "mapLink": "https://www.google.com/maps/place/Yunos+N+Family/@1.3730218,103.782359,13z/data=!4m10!1m2!2m1!1samk+central+satay!3m6!1s0x31da16e7bb08f155:0x90230588b0b370fb!8m2!3d1.3717689!4d103.8464082!15sChFhbWsgY2VudHJhbCBzYXRheVoTIhFhbWsgY2VudHJhbCBzYXRheZIBDGhhd2tlcl9zdGFsbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSQ2VEUmZjbDlSUlJBQuABAPoBBAgAED0!16s%2Fg%2F11btvb5p6p?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:00 AM - 7:00 PM",
+      "Tuesday": "11:00 AM - 7:00 PM",
+      "Wednesday": "11:00 AM - 7:00 PM",
+      "Thursday": "11:00 AM - 7:00 PM",
+      "Friday": "11:00 AM - 7:00 PM",
+      "Saturday": "11:00 AM - 7:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "M Mohamed Irshad",
+    "country": "Singapore",
+    "location": "Bedok",
+    "cuisine": ["Indian", "Muslim", "Local"],
+    "rating": 4.1,
+    "imagePath": " https://lh3.googleusercontent.com/p/AF1QipOJxdq6icDUHyetiZAaxZnKttuf3v_ir2u0VccA=w1000-h1250-k-no ",
+    "mapLink": "https://www.google.com/maps/place/M+Mohamed+Irshad/@1.3332309,103.8583748,13z/data=!3m1!5s0x31da3d4fb3fad70d:0xfa614361f50e5f0d!4m10!1m2!2m1!1sbedok+indian+rojak!3m6!1s0x31da3d4edfa2c26f:0xe29c2c3ad37d8237!8m2!3d1.3332309!4d103.9304726!15sChJiZWRvayBpbmRpYW4gcm9qYWtaFCISYmVkb2sgaW5kaWFuIHJvamFrkgEMaGF3a2VyX3N0YWxsmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4S1QwNVVUWGRhVjBwRVlucENNRk5HVmpOWFNHTXdWRlpzZGxSV1JSQULgAQD6AQUIpgEQPg!16s%2Fg%2F11j2flkwf9?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "6:00 AM - 11:00 PM",
+      "Tuesday": "6:00 AM - 11:00 PM",
+      "Wednesday": "6:00 AM - 11:00 PM",
+      "Thursday": "6:00 AM - 11:00 PM",
+      "Friday": "6:00 AM - 11:00 PM",
+      "Saturday": "6:00 AM - 11:00 PM",
+      "Sunday": "6:00 AM - 11:00 PM"
+    }
+  },
+
+  {
+    "id": 12,
+    "name": "Mr Prata",
+    "country": "Singapore",
+    "location": "Clementi",
+    "cuisine": ["Indian", "Muslim", "Local"],
+    "rating": 3.7,
+    "imagePath": "/StoreImages/MrPrata.png",
+    "mapLink": "https://www.google.com/maps/place/Mr+Prata/@1.3171179,103.4770727,11z/data=!3m1!5s0x31da1a8f8d8a86f5:0xc65ee86bbd37fa4d!4m10!1m2!2m1!1sclementi+prata!3m6!1s0x31da1a8f969ce2a1:0x9773c1a643d922fe!8m2!3d1.3171179!4d103.7654638!15sCg5jbGVtZW50aSBwcmF0YVoQIg5jbGVtZW50aSBwcmF0YZIBEWluZGlhbl9yZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF5TXkxZlQwMW5FQUXgAQD6AQQIRhA6!16s%2Fg%2F1tf8qmf0?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Skinny Chef",
+    "country": "Singapore",
+    "location": "Clementi",
+    "cuisine": ["Western"],
+    "rating": 4.6,
+    "imagePath": "data:image/jpeg;base64,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",
+    "mapLink": "https://www.google.com/maps/place/Skinny+Chef+@+Clementi/@1.313534,103.74893,15z/data=!4m10!1m2!2m1!1sclementi+western!3m6!1s0x31da1b17bc8cb9d1:0xf054cf65368060ff!8m2!3d1.313534!4d103.7669544!15sChBjbGVtZW50aSB3ZXN0ZXJuWhIiEGNsZW1lbnRpIHdlc3Rlcm6SAQtjb2ZmZWVfc2hvcJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyeE5kRnBVUW5CTlJuQjNUMVk1UzJSRldrOU5NMUpTWkd0Uk5XTXdSUkFC4AEA-gEECAAQJw!16s%2Fg%2F11x6snhpk4?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 10:00 PM",
+      "Saturday": "11:00 AM - 10:00 PM",
+      "Sunday": "11:00 AM - 10:00 PM"
+    }
+  },
+
+  {
+    "id": 14,
+    "name": "Tagaki Ramen @ Woodlands",
+    "country": "Singapore",
+    "location": "Woodlands",
+    "cuisine": ["Japanese"],
+    "rating": 4.7,
+    "imagePath": "https://cdn-sg.orstatic.com/userphoto/doorphoto/2/1XB/00DOVPFBC0FB5AC0E00CE7mx.jpg",
+    "mapLink": "https://www.google.com/maps/place/Takagi+Ramen+@+Woodlands/@1.4338153,103.7779661,16z/data=!4m10!1m2!2m1!1swoodland+japanese!3m6!1s0x31da13f13e355b2f:0x41cc6977856e7a69!8m2!3d1.434909!4d103.7860866!15sChF3b29kbGFuZCBqYXBhbmVzZVoTIhF3b29kbGFuZCBqYXBhbmVzZZIBE2phcGFuZXNlX3Jlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjFOa2x0Wkc5blJSQULgAQD6AQQIABA7!16s%2Fg%2F11mw70prwt?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    }
+  },
+
+  {
+    "id": 15,
+    "name": "San Ren Xing (Bedok Mall)",
+    "country": "Singapore",
+    "location": "Bedok",
+    "cuisine": ["Chinese"],
+    "rating": 4.8,
+    "imagePath": "data:image/jpeg;base64,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",
+    "mapLink": "https://www.google.com/maps/place/San+Ren+Xing+(Bedok+Mall)/@1.3246532,103.8937014,14z/data=!3m1!5s0x31da22b31eca3f8f:0x5c209a697afbd5c8!4m10!1m2!2m1!1sbedok+chinese!3m6!1s0x31da23cbb7a0c361:0x19007c5bc4f10695!8m2!3d1.3246532!4d103.9297503!15sCg1iZWRvayBjaGluZXNlWg8iDWJlZG9rIGNoaW5lc2WSARJjaGluZXNlX3Jlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUjRaM1pEUkRKM1JSQULgAQD6AQQIABBM!16s%2Fg%2F11h7t28vfv?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "11:00 AM - 9:00 PM",
+      "Tuesday": "11:00 AM - 9:00 PM",
+      "Wednesday": "11:00 AM - 9:00 PM",
+      "Thursday": "11:00 AM - 9:00 PM",
+      "Friday": "11:00 AM - 9:30 PM",
+      "Saturday": "11:00 AM - 9:30 PM",
+      "Sunday": "11:00 AM - 9:00 PM"
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "Steakgrill Steak House",
+    "country": "Singapore",
+    "location": "Ang Mo Kio",
+    "cuisine": ["Western"],
+    "rating": 4.6,
+    "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wfoMDMOJVnRq8EBxjYKO4-hmKKXE2DSOnA&s",
+    "mapLink": "https://www.google.com/maps/place/Steakgrill+Steak+House/@1.3620919,103.8364678,15z/data=!3m1!5s0x31da171d5e30e2c5:0xe6fea96c577a3d51!4m10!1m2!2m1!1sang+mo+kiosteak!3m6!1s0x31da170749c9ae05:0x7a54ede465fbcdc2!8m2!3d1.3620919!4d103.8544922!15sChBhbmcgbW8ga2lvIHN0ZWFrWhIiEGFuZyBtbyBraW8gc3RlYWuSARJ3ZXN0ZXJuX3Jlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTndNRnBxWDJwM1JSQULgAQD6AQUIuQIQQw!16s%2Fg%2F11j4gyyf48?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "10:00 AM - 8:00 PM",
+      "Tuesday": "10:00 AM - 8:00 PM",
+      "Wednesday": "10:00 AM - 8:00 PM",
+      "Thursday": "10:00 AM - 8:00 PM",
+      "Friday": "10:00 AM - 8:00 PM",
+      "Saturday": "10:00 AM - 8:00 PM",
+      "Sunday": "10:00 AM - 8:00 PM"
+    }
+  },
+
+  {
+    "id": 17,
+    "name": "Ann Chin Popiah",
+    "country": "Singapore",
+    "location": "Clementi",
+    "cuisine": ["Chinese", "Local"],
+    "rating": 2.9,
+    "imagePath": "https://www.annchinpopiah.com.sg/image/catalog/Outlet%20Images/image0.jpeg",
+    "mapLink": "https://www.google.com/maps/place/Ann+Chin+Popiah+(Clementi)/@1.3134024,103.7553575,16z/data=!3m1!5s0x31da1a8e8dd82d1f:0x506b80224b5dcb30!4m10!1m2!2m1!1sclementi+kueh!3m6!1s0x31da1b4cf377eb95:0x7caf1cc7ab7e8ddc!8m2!3d1.3141513!4d103.7639921!15sCg1jbGVtZW50aSBrdWVoWg8iDWNsZW1lbnRpIGt1ZWiSAQxoYXdrZXJfc3RhbGyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnNNbU16UmpGblJSQULgAQD6AQQIABA3!16s%2Fg%2F11rfqnvzmr?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "10:00 AM - 8:00 PM",
+      "Tuesday": "10:00 AM - 8:00 PM",
+      "Wednesday": "10:00 AM - 8:00 PM",
+      "Thursday": "10:00 AM - 8:00 PM",
+      "Friday": "10:00 AM - 8:00 PM",
+      "Saturday": "10:00 AM - 8:00 PM",
+      "Sunday": "10:00 AM - 8:00 PM"
+    }
+  },
+
+  {
+    "id": 18,
+    "name": "Al Mubin Restaurant - Ang Mo Kio",
+    "country": "Singapore",
+    "location": "Ang Mo Kio",
+    "cuisine": ["Indian", "Muslim"],
+    "rating": 3.3,
+    "imagePath": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/a7/0f/a8/caption.jpg?w=900&h=-1&s=1",
+    "mapLink": "https://www.google.com/maps/place/Al+Mubin+Restaurant+-+Ang+Mo+Kio/@1.372629,103.8379354,15z/data=!3m1!5s0x31da16e6d7e10875:0x54d93104bbda8dd7!4m10!1m2!2m1!1sindian+in+amk!3m6!1s0x31da1706ea4301c9:0x800bc60811fe6deb!8m2!3d1.372629!4d103.8559598!15sCg1pbmRpYW4gaW4gYW1rWg8iDWluZGlhbiBpbiBhbWuSARhpbmRpYW5fbXVzbGltX3Jlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhLTVU0eWFIbGFiR2hIWXpKc2RWVkVhSGRhUlZKbVZVZEthR0p1WXhBQuABAPoBBQjMARBF!16s%2Fg%2F11rpvmfqc8?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+    "openingHours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    }
+  }
+]
