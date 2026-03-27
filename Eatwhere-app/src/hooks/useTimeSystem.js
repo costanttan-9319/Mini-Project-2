@@ -4,69 +4,80 @@ const useTimeSystem = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    const updateTime = () => {
       setCurrentTime(new Date());
-    }, 60000); // Updates every 1 minute
+    };
+
+    updateTime();
+    // Update every 10 seconds 
+    const timer = setInterval(updateTime, 10000); 
 
     return () => clearInterval(timer);
   }, []);
 
   const getStoreStatus = (openingHours) => {
-    if (!openingHours || typeof openingHours !== 'object') {
+    if (!openingHours) {
       return { text: "Closed", color: "error" };
     }
 
-    const options = { 
-      timeZone: 'Asia/Singapore', 
-      weekday: 'long', 
-      hour: 'numeric', 
-      minute: 'numeric', 
-      hour12: false 
-    };
-    
-    const parts = new Intl.DateTimeFormat('en-US', options).formatToParts(currentTime);
-    
+    const formatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Singapore',
+      weekday: 'long',
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: false
+    });
+
+    const parts = formatter.formatToParts(currentTime);
     const day = parts.find(p => p.type === 'weekday').value;
-    const hour = parseInt(parts.find(p => p.type === 'hour').value);
-    const min = parseInt(parts.find(p => p.type === 'minute').value);
-    const nowInMins = hour * 60 + min;
+    const hourNow = parseInt(parts.find(p => p.type === 'hour').value);
+    const minNow = parseInt(parts.find(p => p.type === 'minute').value);
+    const nowInMins = hourNow * 60 + minNow;
 
     const todayHours = openingHours[day];
-    if (!todayHours) return { text: "Closed", color: "error" };
+    if (!todayHours || todayHours.toLowerCase() === "closed") {
+      return { text: "Closed", color: "error" };
+    }
 
-    const normalizedHours = todayHours.toLowerCase();
-    if (normalizedHours.includes("24 hours") || normalizedHours.includes("24hrs")) {
+    if (todayHours.toLowerCase().includes("24 hours") || todayHours.toLowerCase().includes("24hrs")) {
       return { text: "Open", color: "success" };
     }
 
-    if (normalizedHours === "closed") return { text: "Closed", color: "error" };
-
     const parseToMins = (timeStr) => {
-      try {
-        const [time, modifier] = timeStr.trim().split(' ');
-        let [h, m] = time.split(':').map(Number);
-        const minutes = m || 0;
-        
-        if (modifier === 'PM' && h !== 12) h += 12;
-        if (modifier === 'AM' && h === 12) h = 0;
-        return h * 60 + minutes;
-      } catch (e) { 
-        return 0; 
-      }
+      if (!timeStr) return 0;
+      const match = timeStr.match(/(\d+)(?::(\d+))?\s*(AM|PM)/i);
+      if (!match) return 0;
+
+      let [_, hours, mins, modifier] = match;
+      hours = parseInt(hours);
+      mins = mins ? parseInt(mins) : 0;
+
+      if (modifier.toUpperCase() === 'PM' && hours !== 12) hours += 12;
+      if (modifier.toUpperCase() === 'AM' && hours === 12) hours = 0;
+
+      return hours * 60 + mins;
     };
 
-    const [startStr, endStr] = todayHours.split(' - ');
-    const start = parseToMins(startStr);
-    const end = parseToMins(endStr);
+    const timeRange = todayHours.split('-').map(s => s.trim());
+    if (timeRange.length !== 2) return { text: "Closed", color: "error" };
 
-    if (nowInMins >= start - 30 && nowInMins < start) return { text: "Opening Soon", color: "warning" };
-    if (nowInMins >= end - 30 && nowInMins < end) return { text: "Closing Soon", color: "warning" };
-    if (nowInMins >= start && nowInMins < end) return { text: "Open", color: "success" };
-    
+    const start = parseToMins(timeRange[0]);
+    const end = parseToMins(timeRange[1]);
+
+    if (nowInMins >= start && nowInMins < end) {
+      if (nowInMins >= end - 30) return { text: "Closing Soon", color: "warning" };
+      return { text: "Open", color: "success" };
+    }
+
+    if (nowInMins >= start - 30 && nowInMins < start) {
+      return { text: "Opening Soon", color: "warning" };
+    }
+
     return { text: "Closed", color: "error" };
   };
 
-  return { getStoreStatus };
+  // FIX: You MUST return currentTime here to trigger re-renders in Home.jsx
+  return { currentTime, getStoreStatus };
 };
 
 export default useTimeSystem;

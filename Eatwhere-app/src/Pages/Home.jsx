@@ -6,7 +6,7 @@ import {
 import CasinoIcon from '@mui/icons-material/Casino'; 
 import AccessTimeIcon from '@mui/icons-material/AccessTime'; 
 
-//Custom hook time system here
+// Custom hook time system
 import useTimeSystem from '../hooks/useTimeSystem';
 import { 
   getSortedCountries, getSortedLocations, getSortedCuisines, 
@@ -14,8 +14,8 @@ import {
 } from '../Services/SearchService';
 
 function Home() {
-  // --- INITIALIZE HOOK: This gives us the live status function ---
-  const { getStoreStatus } = useTimeSystem();
+  // This ensures the Home component re-renders every time the hook's timer ticks.
+  const { currentTime, getStoreStatus } = useTimeSystem();
 
   const [countries, setCountries] = useState([]);
   const [locations, setLocations] = useState([]);
@@ -103,9 +103,14 @@ function Home() {
 
       <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 3 }}>
         {results?.map((store) => {
-          // Uses the live status from our hook
+          // Now this re-runs automatically whenever currentTime changes
           const status = getStoreStatus(store.openingHours);
-          const currentDay = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Singapore', weekday: 'long' }).format(new Date());
+          
+          // Use the currentTime from the hook for the "Today" highlight
+          const currentDay = new Intl.DateTimeFormat('en-US', { 
+            timeZone: 'Asia/Singapore', 
+            weekday: 'long' 
+          }).format(currentTime);
 
           const isAlways24h = store.openingHours && 
             Object.values(store.openingHours).every(h => h.toLowerCase().includes("24 hours"));
